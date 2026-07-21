@@ -1,10 +1,10 @@
 # Customer Churn Prediction using Logistic Regression
 
-# Objective:
+## Objective:
 A telecommunications company wants to predict whether a customer is likely to leave (churn) based on demographic information and service usage. 
 Develop a Logistic Regression model to predict customer churn.
 
-# Dataset
+## Dataset
 
 Source: Telco Customer Churn Dataset on Kaggle
 
@@ -14,7 +14,7 @@ Dataset Statistics:
 -Target Variable: Churn (Yes/No)
 -Churn Rate: ~26.5%
 
-#  Assignment Tasks
+## Assignment Tasks
 Task 1: Data Understanding (2 Marks)
 -Load the dataset using Pandas
 -Display first five records
@@ -47,45 +47,46 @@ Task 5: Conclusion (1 Mark)
 -Limitations of Logistic Regression
 -Business recommendations
 
-# Model Performance
-|Evaluation |Metrics|
-|Metric	|Score|
-|Accuracy	|~80%|
-|Precision	|~0.63|
-|Recall	|~0.54|
-|F1-Score	|~0.58|
+## Model Performance
+- Evaluation Metrics:
+| Metric	| Score |
+|---|---|
+| Accuracy	| ~80% |
+| Precision	| ~0.63 |
+| Recall	| ~0.54 |
+| F1-Score	| ~0.58 |
 
 ![Confusion Matrix]()
 
 #Key Performance Insights
--Accuracy: The model achieves ~80% accuracy, significantly better than random guessing (73.5% baseline)
--Precision-Recall Trade-off: The model has better precision than recall, meaning it's more conservative in predicting churn
--Confusion Matrix Analysis:
--Correctly identifies ~54% of actual churners
--Has moderate false positive rate
+- Accuracy: The model achieves ~80% accuracy, significantly better than random guessing (73.5% baseline)
+- Precision-Recall Trade-off: The model has better precision than recall, meaning it's more conservative in predicting churn
+- Confusion Matrix Analysis:
+- Correctly identifies ~54% of actual churners
+- Has moderate false positive rate
 
-📊 Visualizations
-The project generates several visualizations:
-Confusion Matrix Heatmap - Shows prediction accuracy breakdown
-Feature Importance Plot - Top 10 features affecting churn
-Model Performance Dashboard - Comprehensive metrics visualization
+**Visualizations**
+- The project generates several visualizations:
+- Confusion Matrix Heatmap - Shows prediction accuracy breakdown
+- Feature Importance Plot - Top 10 features affecting churn
+- Model Performance Dashboard - Comprehensive metrics visualization
 
-🔬 Limitations
-Linearity Assumption: Logistic Regression assumes linear relationships between features and log-odds
-Feature Independence: Cannot capture complex feature interactions
-Class Imbalance: Dataset has ~26.5% churn rate, causing bias toward non-churn predictions
-Non-linear Relationships: Cannot capture complex patterns in customer behavior
+**Limitations**
+- Linearity Assumption: Logistic Regression assumes linear relationships between features and log-odds
+- Feature Independence: Cannot capture complex feature interactions
+- Class Imbalance: Dataset has ~26.5% churn rate, causing bias toward non-churn predictions
+- Non-linear Relationships: Cannot capture complex patterns in customer behavior
 
-#References:
+**References:**
 -Telco Customer Churn Dataset
 -Scikit-learn Documentation
 -Logistic Regression Theory
 
 📄License: This project is for educational purposes. The dataset is provided by IBM and is available for public use.
 
-✨ Acknowledgments
--IBM for providing the dataset
--Kaggle for hosting the dataset
--Open-source community for excellent libraries
+**Acknowledgments**
+- IBM for providing the dataset
+- Kaggle for hosting the dataset
+- Open-source community for excellent libraries
 
 
