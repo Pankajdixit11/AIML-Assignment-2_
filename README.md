@@ -6,7 +6,7 @@ Develop a Logistic Regression model to predict customer churn.
 
 ## Dataset
 
-Source: Telco Customer Churn Dataset on Kaggle
+Source: [Telco Customer Churn Dataset on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 Dataset Statistics:
 -Total Records: 7,043 customers
@@ -56,12 +56,6 @@ Evaluation Metrics:
 | Recall	| ~0.54 |
 | F1-Score	| ~0.58 |
 
-| Metric | Value |
-|---|---|
-| MAE | $4,182.09|
-| MSE | 	$33,580,951.15 |
-| R² Score | 0.7835 |
-
 ![Confusion Matrix](https://github.com/Pankajdixit11/AIML-Assignment-2_/blob/7286394fbfa4ba7aa608aabcff442afe460df0f5/churn_analysis_results.png)
 
 #Key Performance Insights
@@ -84,15 +78,19 @@ Evaluation Metrics:
 - Non-linear Relationships: Cannot capture complex patterns in customer behavior
 
 **References:**
-- Telco Customer Churn Dataset
-- Scikit-learn Documentation
-- Logistic Regression Theory
+- [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+- [Logistic Regression Theory](https://en.wikipedia.org/wiki/Logistic_regression)
 
 **License:** This project is for educational purposes. The dataset is provided by IBM and is available for public use.
+
+**Contributor:**
+- Pankaj Dixit
 
 **Acknowledgments**
 - IBM for providing the dataset
 - Kaggle for hosting the dataset
 - Open-source community for excellent libraries
 
-
+##CONCLUSION
+- Key Findings: The Logistic Regression model achieved {accuracy*100:.2f}% accuracy in predicting customer churn, with contract type, tenure, and monthly charges as the strongest predictors.
